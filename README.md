@@ -1,7 +1,7 @@
-﻿# Flashcards
+﻿# Phonebook
 
-A simple console-based Drink Menu app. This is a project for the C# Academy course.
-You can view the drinks menu from https://www.thecocktaildb.com.
+A simple console-based Phonebook app. This is a project for the C# Academy course.
+You can view, add, update and delete contacts.
 
 ## How to use
 
@@ -11,14 +11,21 @@ As this is a console application you just need to input the option you want and 
 
 On starting the program you get presented all the options available.
 
-#### View Drink Categories
+#### View Contacts
 
-You are shown all the categories for drinks. After choosing one you get the drinks from that category to choose and view its details.
-You can then add them to your favourites, or remove them if they are already there.
+You are shown all you contacts information.
 
-#### View Favourite Drinks
+#### Add Contact
 
-You can see the drinks you marked as you favourite, and remove them if you want.
+You can add a new contact to the book.
+
+#### Update Contact
+
+You can change the info of a contact.
+
+#### Delete Contact
+
+You can remove a contact from the book.
 
 #### Exit
 
@@ -29,10 +36,11 @@ Close the program.
 
 ## What I've learned
 
-- A bit about HTTP requests. I'd say I've learned a lot, because I always ask the AI to expand on hard things and go as in depth as I can understand it, but actually I only got the basics.
-- My understanding about async keeps going back and forth between "I finally got it" and "what the **** is happening?", but in general I'd say I'm getting it bit by bit.
+- I've used Entity Framework at work before, but I was very lost, no idea what I was doing. Now I've finally got it, at least the basics.
+- For some reason I always have problems with not knowing what to test, but I've made a few here so there's some improvement.
 
 ## Things to improve
 
-- I'll be studying all the HTTP stuff more in depth. I'm not sure how much I need to know but I'm always curious about the underneath secrets in coding.
-- I probably need to think way more about tests. As this project is particularly small I don't even know what to test, and Spectre Console handles the input so less problems to think about.
+- I'm still a novice with Entity Framework so that obviously.
+- I need to keep making tests in every project.
+- Sometimes I'm not sure when to use Exceptions, so I'll look into that too.
